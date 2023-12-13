@@ -1,0 +1,73 @@
+*{
+font-family: sans-serif;
+margin: 0;
+padding: 0;
+}
+.header nav{
+min-height: 70px;
+width: 100%;
+background-color: rgb(6, 6, 15);
+display: flex;
+justify-content: space-around;
+align-items: center;
+color: aliceblue;
+}
+
+.header nav ul{
+display: flex;
+gap: 40px;
+list-style: none;
+}
+nav ul li a{
+color: aliceblue;
+}
+.header nav ul a{
+text-decoration: none;
+}
+.header nav ul a:hover{
+color: orange;
+font-size: 0.9rem;
+}
+
+/* main */
+.main{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: rgb(3, 3, 37);
+height: 510px;
+}
+.left{
+color:antiquewhite;
+font-size: 1.4rem;
+margin-left: 30px;
+}
+.left span{
+color: blueviolet;
+}
+.btns button{
+border: 2px solid wheat;
+border-radius: 3px;
+height: 35px;
+width: 75px;
+font-style: italic;
+margin-top: 20px;
+}
+.btns .blue{
+background-color: rgb(94, 94, 225);
+}
+.btns button:hover{
+cursor: pointer;
+color: palevioletred;
+}
+
+/* footer */
+.footer{
+ background-color: rgb(30, 30, 188);
+ min-height: 20vh;
+ color: bisque;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}

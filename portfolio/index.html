@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="header">
+<nav>
+<div class="Name">
+ Surya's portfolio
+</div>
+  <ul>
+   <li><a href="/">Home</a></li>
+   <li><a href="/">My projects</a></li>
+   <li><a href="/">My services</a></li>
+   <li><a href="/">Contact Me</a></li>
+  </ul>
+</nav>
+</div> 
+<!-- main -->
+<div class="main">
+<div class="left">
+Hello  I am <span>Surya Prakash.</span>
+<p>And i am very passionate about web development</p>
+<span id="element"></span>
+<div class="btns">
+<button type="button" class="blue">Resume</button>
+<a href="https://github.com/">
+<button type="button">Github</button>
+</a>
+</div>
+</div>
+<div class="right">
+<img src="https://th.bing.com/th/id/OIP.defveqJwCb77B2UJOCuGuAAAAA?rs=1&pid=ImgDetMain" alt="">
+</div>
+</div>
+<div class="footer">
+<div class="email">
+suryapeddireddy1203@gmail.com
+</div>
+<div class="copyrights">
+All Rights Reserved|© Copyright
+</div>
+</div>
+<!-- go to type js website to find these animations -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'competitive Coder', '&amp;Graphic Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>

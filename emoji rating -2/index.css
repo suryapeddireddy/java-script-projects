@@ -1,0 +1,70 @@
+*{
+padding: 0;
+margin: 0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+background-color:aqua;
+}
+.main{
+width: 50vw;
+height: 120vh;
+background-color: yellowgreen;
+border-radius: 20px;
+margin-top: 20vh;
+margin-left: 26vw;
+}
+.first{
+height: 31vh;
+width: 23vw;
+margin-left: 14vw;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.star-container{
+margin-top: 10vh;
+margin-left: 12vw;
+}
+.fa-star{
+color: gray;
+}
+
+.custom-textarea{
+height: 40vh;
+width: 30vw;
+color: wheat;
+margin-left: 10vw;
+margin-top: 5vh;
+border: 2px solid black;
+}
+
+button{
+margin-left: 19vw;
+margin-top: 2vh;
+height: 5vh;
+width: 14vw;
+font-family: sans-serif;
+border-radius: 8px;
+background-color: darkcyan;
+}
+button:hover{
+cursor: pointer;
+}
+
+
+
+
+/* thank you one */
+
+.thankyou{
+    width: 50vw;
+    height: 40vh;
+    background-color: yellowgreen;
+    border-radius: 20px;
+    margin-top: 20vh;
+    margin-left: 13vw;
+    font-size: 2rem;
+   padding-top: 30vh;
+   padding-left:15vw;
+    }

@@ -40,13 +40,4 @@ background-color: aqua;
 transform: translate(80vw ,20vh);
 padding-top: 6vh;
 padding-left:8vw ;
-animation: animae 2s 1s;
-}
-@keyframes animae {
-0%{
-transform: translate(80vw ,20vh);
-} 
-100%{
-    transform: translate(60vw ,20vh);
-}
 }

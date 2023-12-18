@@ -29,6 +29,13 @@
     border: 2px solid gray;
     padding-left: 2px;
     }
+    .fa-xmark{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid gray;
+        padding-left: 4px;
+    }
     .btns{
     width: 30vw;
     height: 10vh;
